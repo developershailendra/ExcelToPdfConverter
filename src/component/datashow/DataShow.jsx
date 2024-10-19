@@ -11,7 +11,7 @@ const DataShow = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("http://localhost:8080/home");
+      const response = await fetch("https://exceltopdfconvert-production.up.railway.app/home");
       if (!response.ok) {
         throw new Error("Error fetching data");
       }
