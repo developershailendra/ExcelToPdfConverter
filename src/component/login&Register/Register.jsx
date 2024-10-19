@@ -11,7 +11,7 @@ const Register = () => {
     const userData = { username, email, password };
 
     try {
-      const response = await fetch("http://localhost:8080/home/register", {
+      const response = await fetch("https://exceltopdfconvert-production.up.railway.app/home/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
