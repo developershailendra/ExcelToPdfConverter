@@ -1,0 +1,33 @@
+/* MainComponent.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Use a clean font */
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height of the viewport */
+    text-align: center; /* Center text */
+  }
+  
+  .header {
+    background-color: #D2FBD0; /* Primary color for header */
+    color: #0D5F07; /* White text */
+    padding: 20px;
+    width: 100%; /* Full width */
+    font-size: 10vh;
+  }
+  
+  .content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ACC8E5; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Limit width */
+    color: #112A46;
+  }

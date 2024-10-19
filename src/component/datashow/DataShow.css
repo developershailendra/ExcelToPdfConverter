@@ -1,0 +1,73 @@
+/* Style for the table container */
+.table-container {
+    display: block;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    min-height: 100vh;       /* Makes the container full height of the viewport */
+  }
+  
+  /* Style for the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;              /* Adjust table width as per your requirement */
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  }
+  
+  /* Table header styling */
+  thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Table cell styling */
+  td, th {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Zebra striping for rows */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect on rows */
+  tbody tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+
+
+  .text{
+    position: relative;
+    left: 5%;
+    font-size: 60px;
+  }
+
+  /* Button styling */
+.btn {
+    position: relative;
+    left: 45%;
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 12px 24px; /* Padding for size */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Font size */
+    margin: 20px;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for the button */
+  .btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slight scaling on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+  }
+  
+  

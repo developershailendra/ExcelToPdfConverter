@@ -1,0 +1,54 @@
+/* src/style.css */
+
+.bg {
+    position: relative;
+    /* top: -5vh; */
+    height: 80vh;
+    width: 100vw;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Excel {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    top: 20vh;
+    left: 25%;
+    color: #fff;
+}
+
+.pdfbutton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40vh;
+}
+
+.button {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --btn-color: rgb(100, 61, 136);
+    border: 0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--btn-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--glow-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
+    position: relative;
+    transition: all 0.35s;
+}
+
+.button:hover {
+    background-color: var(--glow-color);
+    box-shadow: 0 1em 0.25em var(--glow-color), 0.0 4en 2em var(--glow-spread-color),
+        inset 0.0 0.75em 0.25em var(--glow-color);
+}

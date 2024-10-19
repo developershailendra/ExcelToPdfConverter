@@ -1,0 +1,72 @@
+/* Footer styles */
+.footer {
+    background-color: #969191;
+    padding: 20px 0;
+    color: #333;
+    position: relative;
+  }
+  
+  /* Container styles */
+  .container {
+    height: 30vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Row styles */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  /* Column styles */
+  .col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  /* Make the footer full-width on small screens */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 10px 0;
+    }
+    .container {
+      padding: 0 15px;
+    }
+    .row {
+      margin: 0;
+    }
+    .col {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Make the footer columns stack on small screens */
+  @media (max-width: 576px) {
+    .col {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Add some basic styling for links and hover effects */
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
