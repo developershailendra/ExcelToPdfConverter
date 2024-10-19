@@ -22,7 +22,7 @@ const ExcelUpload = () => {
         formData.append("file", file);
 
         try {
-            const response = await axios.post("http://localhost:8080/home/upload", formData);
+            const response = await axios.post("https://exceltopdfconvert-production.up.railway.app/home/upload", formData);
             setResult("Data inserted successfully: " + response.data);
         } catch (error) {
             setResult("Error occurred while processing file: " + error.response.data);
